@@ -1,0 +1,14 @@
+Use: 
+
+$ cd /path/to/where/to/start/project
+$ sh /path/to/h5bp.sh
+
+I have it in my Users/username folder (on my mac) so I do:
+$ cd htdocs
+$ sh ~/h5bp.sh
+
+Alternatively:
+-Edit your ~/.profile file and 
+1) add ~/ to your PATH variable if not already there
+2) create an alias:
+alias h5bp="sh /path/to/h5bp.sh"
